@@ -20,8 +20,8 @@ public class GoogleInspectAssignment {
 		act.contextClick().perform();
 		
 		Robot r=new Robot();
-		r.keyPress(KeyEvent.VK_DOWN);
-		r.keyRelease(KeyEvent.VK_DOWN);
+		r.keyPress(KeyEvent.VK_END);
+		/*r.keyRelease(KeyEvent.VK_DOWN);
 		r.keyPress(KeyEvent.VK_DOWN);
 		r.keyRelease(KeyEvent.VK_DOWN);
 		r.keyPress(KeyEvent.VK_DOWN);
@@ -39,7 +39,8 @@ public class GoogleInspectAssignment {
 		r.keyPress(KeyEvent.VK_DOWN);
 		r.keyRelease(KeyEvent.VK_DOWN);
 		r.keyPress(KeyEvent.VK_DOWN);
-		r.keyRelease(KeyEvent.VK_DOWN);
+		r.keyRelease(KeyEvent.VK_DOWN);*/
+		
 		
 		r.keyPress(KeyEvent.VK_ENTER);
 		
