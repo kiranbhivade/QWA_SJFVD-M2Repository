@@ -1,26 +1,32 @@
-package Assignment;
+package Mock;
 
 import java.time.Duration;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Dream11 {
+public class Assignment {
 	public static void main(String[] args) throws InterruptedException {
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-		driver.navigate().to("https://www.dream11.com/");
+		driver.get("https://demoapps.qspiders.com/ui?scenario=1");
+		driver.findElement(By.xpath("//li[text()='Disabled']")).click();
 		
-		JavascriptExecutor js=(JavascriptExecutor) driver;
-		js.executeScript("window.scrollBy(0,300)");
+		JavascriptExecutor js=(JavascriptExecutor)driver;
 		Thread.sleep(2000);
 		
-		driver.findElement(By.xpath("//input[@id='regEmail']")).sendKeys("123456");
+		js.executeScript("document.getElementById('name').value='kiran'");
+	     
 
-		driver.findElement(By.xpath("//a[@id='regUser']")).click();
+		
+	
+	
+		
+		
 	
 	}
 

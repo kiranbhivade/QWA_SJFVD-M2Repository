@@ -12,7 +12,7 @@ public class XpathbyContainsAttribute {
 		driver.get("https://www.flipkart.com/");
 		Thread.sleep(1000);
 		driver.findElement(By.xpath("//span[text()='✕']")).click();
-		driver.findElement(By.xpath("//input[cntains @class,'Pke']")).sendKeys("iphone",Keys.ENTER;
+		driver.findElement(By.xpath("//input[cntains @class,'Pke']")).sendKeys("iphone",Keys.ENTER);
 	}
 
 }

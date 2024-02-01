@@ -25,7 +25,7 @@ public class HandlingPromptPopup {
 		System.out.println(alt.getText());
 		alt.accept();
 		Thread.sleep(2000);
-		g.quit();s
+		g.quit();
 	}
 
 }
