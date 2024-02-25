@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="chromeTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.AutomationFramework2.TestScript.InvalidLoginTest">
+        <methods>
+          <include name="invalidLogin"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.AutomationFramework2.TestScript.InvalidLoginTest -->
+      <class name="com.AutomationFramework2.TestScript.DeleteAllProjectandCustomerTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="deleteAllProjectAndCustomer"/>
+        </methods>
+      </class> <!-- com.AutomationFramework2.TestScript.DeleteAllProjectandCustomerTest -->
+      <class name="com.AutomationFramework2.TestScript.ValidLoginTest">
+        <methods>
+          <include name="login"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.AutomationFramework2.TestScript.ValidLoginTest -->
+      <class name="com.AutomationFramework2.TestScript.CreateCustomer_ProjectTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="createCustomerAndProject"/>
+        </methods>
+      </class> <!-- com.AutomationFramework2.TestScript.CreateCustomer_ProjectTest -->
+      <class name="com.AutomationFramework2.TestScript.CreateUserTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="createUser"/>
+        </methods>
+      </class> <!-- com.AutomationFramework2.TestScript.CreateUserTest -->
+    </classes>
+  </test> <!-- chromeTest(failed) -->
+  <test thread-count="5" name="EdgeTest(failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="com.AutomationFramework2.TestScript.InvalidLoginTest">
+        <methods>
+          <include name="invalidLogin"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.AutomationFramework2.TestScript.InvalidLoginTest -->
+      <class name="com.AutomationFramework2.TestScript.DeleteAllProjectandCustomerTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="deleteAllProjectAndCustomer"/>
+        </methods>
+      </class> <!-- com.AutomationFramework2.TestScript.DeleteAllProjectandCustomerTest -->
+      <class name="com.AutomationFramework2.TestScript.ValidLoginTest">
+        <methods>
+          <include name="login"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.AutomationFramework2.TestScript.ValidLoginTest -->
+      <class name="com.AutomationFramework2.TestScript.CreateCustomer_ProjectTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="createCustomerAndProject"/>
+        </methods>
+      </class> <!-- com.AutomationFramework2.TestScript.CreateCustomer_ProjectTest -->
+      <class name="com.AutomationFramework2.TestScript.CreateUserTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="createUser"/>
+        </methods>
+      </class> <!-- com.AutomationFramework2.TestScript.CreateUserTest -->
+    </classes>
+  </test> <!-- EdgeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

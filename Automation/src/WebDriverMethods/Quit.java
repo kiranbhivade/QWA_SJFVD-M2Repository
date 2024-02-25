@@ -12,6 +12,7 @@ public class Quit {
 		driver.get("https://omayo.blogspot.com/");
 		
 		driver.findElement(By.xpath("//a[text()='Open a popup window']")).click();
+		
 		driver.quit();
 	}
 
